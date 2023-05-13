@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto</title>
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+    <body class="body">
+        <header class="header" style="height: 90vh;">
+            <nav class="navbar navbar-expand-lg navbar-light navegador">
+                <div class="container-fluid ms-5">
+                    <a class="navbar-brand text-white fs-3 pt-3 " href="#">
+                    <img src="./assets/img/codoacodo.png" alt="Logo de codo a codo" width="28%">
+                    Conf Bs.As.
+                    </a>
+                    <button class="navbar-toggler navbar-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100 justify-content-center ">
+                            <a class="navbar-brand" href="#"></a> <button class="navbar-toggler"></button>
+                            <li class="text-center nav-item"><a href="#conferenciaBsAs" class="link nav-link fs-4 py-0 px-3 confer">La conferencia</a></li>
+                            <li class="text-center nav-item"><a href="#conoceOradores"  class="link nav-link fs-4 py-0 px-3">Los oradores</a></li>
+                            <li class="text-center nav-item"><a href="#bsAsOctubre"     class="link nav-link fs-4 py-0 px-3">El lugar y la fecha</a></li>
+                            <li class="text-center nav-item"><a href="#form"            class="link nav-link fs-4 py-0 px-3">Conviértete en orador</a></li>
+                            <li class="text-center nav-item"><a href="#"                class="link nav-link fs-4 py-0 px-3 compraTicket">Comprar tickets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section class="conferenciaBsAs " id="conferenciaBsAs" style="height:50vh">
+                    <div class="confBsAs container-fluid p-0 d-flex align-items-end" >
+                        <div id="carrusel" class=" carousel slide" data-bs-ride="carousel" style="height:100%;">
+                            <!-- Indicators/dots -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2"></button>
+                            </div>
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner container-fluid p-0 m-0" style="height:80vh">
+                                <div class="carrusel carousel-item active" style="height: 100%;">
+                                    <img src="./assets/img/ba1.jpg" alt="Buenos Aires 1" class="d-block w-100 alturaCarrusel" style="object-fit: cover; filter: brightness(40%);" >
+                                    <div class="d-flex  flex-column carousel-caption align-items-end text-end col ms-auto mb-5 " style="width: 41%; ">
+                                        <h1 class="fs-1">Conf Bs As</h1>
+                                        <p class="fs-4 lh-1">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están crando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                                        <div class="mt-4 container-fluid">
+                                            <a class="btn bOrador text-white fs-4 col p-2">Quiero ser orador</a>
+                                            <a class="btn bComprarTicket text-white fs-4 col p-2 px-4">Comprar tickets</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" style="height: 100%;">
+                                    <img src="./assets/img/ba2.jpg" alt="Buenos Aires 2" class="d-block w-100 alturaCarrusel" style="object-fit: cover; filter: brightness(40%);">
+                                    <div class="d-flex  flex-column carousel-caption align-items-end text-end col ms-auto mb-5" style="width: 41%;">
+                                        <h1 class="fs-1">Conf Bs As</h1>
+                                        <p class="fs-4 lh-1">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están crando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                                        <div class="mt-4 container-fluid">
+                                            <a class="btn bOrador text-white fs-4 col p-2">Quiero ser orador</a>
+                                            <a class="btn bComprarTicket text-white fs-4 col p-2 px-4">Comprar tickets</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" style="height: 100%;">
+                                    <img src="./assets/img/ba3.jpg" alt="Buenos Aires 3" class="d-block w-100 alturaCarrusel" style="object-fit: cover; filter: brightness(40%);" >
+                                    <div class="d-flex  flex-column carousel-caption align-items-end text-end col ms-auto mb-5" style="width: 41%;">
+                                        <h1 class="fs-1">Conf Bs As</h1>
+                                        <p class="fs-4 lh-1">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están crando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                                        <div class="mt-4 container-fluid">
+                                            <a class="btn bOrador text-white fs-4 col p-2">Quiero ser orador</a>
+                                            <a class="btn bComprarTicket text-white fs-4 col p-2 px-4">Comprar tickets</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+            </section>
+        </header>
+        <main>
+            <section class="conoceOradores mb-4" id="conoceOradores">
+                <div class="text-center my-3">
+                    <h2 class="h6 pt-2 m- 0">CONOCE A LOS<br><span class="h1">ORADORES</span></h2>
+                </div>
+                <div class="oradores container-fluid d-flex flex-wrap justify-content-center p-0 m-auto">
+                        <div class="orador card mx-sm-5 mb-4 card-group">
+                            <img src="./assets/img/steve.jpg" alt="Steve Jobs" style="width:100%; height: 57%;">
+                            <div class="oradorDiv ">
+                                <span class="container-fluid row align-bottom p-0 m-0 justify-content-start col-5 align-items-center ms-3 ">
+                                    <h5 class="js col-7 border rounded-3 p-0 text-center me-1 mb-0 fs-6 fw-bold mt-4 align-items-center ">JavaScript</h5>
+                                    <h5 class="react col-4 border rounded-3 p-0 text-center mb-0 fs-6 mt-4 align-items-center ">React</h5>
+                                </span>
+                                <div class="card-body pt-0">
+                                    <h3 class="card-title mb-4">Steve Jobs</h3>
+                                    <p  class="card-text " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita saepe iste vitae rem reiciendis quos, explicabo sint facere incidunt, modi blanditiis animi voluptatibus dolorum nulla! Pariatur provident sit et?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orador card mx-sm-5 mb-sm-3 card-group">
+                            <img src="./assets/img/bill.jpg" alt="Bill Gates" style="width:100%; height: 57%;">
+                            <div class="oradorDiv"> 
+                                <span class="container-fluid row align-bottom p-0 m-0 justify-content-start col-5 align-items-center ms-3">
+                                    <h5 class="js col-7 border rounded-3 p-0 text-center me-1 mb-0 fs-6 fw-bold mt-4 ">JavaScript</h5>
+                                    <h5 class="react col-4 border rounded-3 p-0 text-center  mb-0  fs-6 mt-4">React</h5>
+                                </span>
+                                <div class="card-body pt-0">
+                                    <h3 class="card-title mb-4">Bill Gates</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita saepe iste vitae rem reiciendis quos, explicabo sint facere incidunt, modi blanditiis animi voluptatibus dolorum nulla! Pariatur provident sit et?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orador card mx-sm-5 mb-4 card-group">
+                            <img src="./assets/img/ada.jpeg" alt="Ada Lovelace" style="width:100%; height: 57%;">
+                            <div class="oradorDiv">
+                                <span class="container-fluid row align-bottom p-0 m-0 justify-content-start col-8 align-items-center ms-3 mb-0 mt-0">
+                                    <h5 class="negocios col-4 border rounded-3 p-0 me-1 mb-0 text-center fs-6 mt-4">Negocios</h5>
+                                    <h5 class="startups col-4 border rounded-3 p-0  mb-0 text-center fs-6 mt-4">Startups</h5>
+                                </span>
+                                <div class="card-body pt-0">
+                                    <h3 class="card-title mb-4">Ada Lovelace</h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita saepe iste vitae rem reiciendis quos, explicabo sint facere incidunt, modi blanditiis animi voluptatibus dolorum nulla! Pariatur provident sit et?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="bsAsOctubre container-fluid  p-0 m-0 mt-2" id="bsAsOctubre">
+                <div class=" honolulu d-flex flex-row flex-wrap p-0 m-0">
+                    <div class="imgHonolulu imagen col-6 border border-white p-0">
+                    </div>
+                    <div class="textOctubre col-6 text-white border border-white p-3 lh-base" >
+                        <h4 class="fs-2 mb-4">Bs As - Octubre</h4>
+                        <p class="lh-lg fs-5">Buenos Aires es la provincia y la localidad más grande del estado de Argentina, en los Estados Unidos, Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condao de Honolulu han formado una ciuda-condado consolidada que cubre toda la ciudad (aproximadamente 600km<sup>2</sup> de superficie).</p> 
+                        <br><button class="conoceMas btn text-white ">Conocé más</button>
+                    </div>  
+                </div>
+            </section>
+            <section class="form container-fluid align-items-center text-center mt-4 " id="form">
+                <h2><span class="h6">CONVIÉRTETE EN UN</span><br><span class="textOradorTitulo h1"> ORADOR</span></h2>
+                <p class="fs-5 ">Anótate como orador para dar una <abbr title="charla ignite">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
+                <form class="formulario container-fluid row col-7 align-items-center text-center m-auto p-5 pt-0" action="formulario">
+                    <div class="d-flex justify-content-between mb-3 p-0">
+                        <input class="form-control me-4 fs-5" type="text" placeholder="Nombre" required>
+                        <input class="form-control fs-5" type="text" placeholder="Apellido" required>
+                    </div>
+                    <div class="p-0">
+                        <textarea class="form-control fs-5 p-3 px-3"  id="exampleFormControlTextarea1" name="textAreaOrador" id="textAreaOrador" cols="90" rows="3" placeholder="Sobre qué quieres hablar?" required></textarea>
+                    </div>
+                    <p class="text-start text-secondary p-0">Recuerda incluir un título para tu charla</p>
+                    <input class ="btn btnSubmit text-white mb-0 fs-3" type="submit" value="Enviar">
+                </form>
+            </section>
+
+        </main>
+        <footer class="secFooter mb-0">
+            <!-- <div class=" "> -->
+            <nav class = "navFooter container col-12 align-items-center p-sm-3 text-white fs-5"  id="navbarNav">   
+                <ul class="listaFooter list-unstyled navbar text-sm-center align-items-center m-0 flex-row">
+                    <li class="nav-item col"><a href="#" class="nav-link text-white">Preguntas<br>frecuentes</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link text-white">Contáctanos</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link text-white">Prensa</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link text-white">Conferencias</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link text-white ">Términos y<br>condiciones</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link text-white">Privacidad</a></li>
+                    <li class="nav-item col"><a href="#" class="nav-link text-white ">Estudiantes</a></li>
+                </ul>
+            </nav>
+            <!-- </div> -->
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
